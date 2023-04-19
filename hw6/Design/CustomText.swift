@@ -15,7 +15,7 @@ struct CustomText: View {
     var size: CGFloat?
     var font: Font.Weight?
     var body: some View {
-       Text(text)
+        Text(text)
             .foregroundColor(color)
             .fontWeight(font)
             .font(.custom("", size: size ?? 0))

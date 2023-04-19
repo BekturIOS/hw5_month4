@@ -30,11 +30,11 @@ struct ProductTwo: View {
                     CustomText(text: "4.5",
                                color: .black,
                                font: .bold)
-                        .font(.custom("", size: 15))
+                    .font(.custom("", size: 15))
                     
                     CustomButton(image: Image(systemName:"moonphase.new.moon"),
                                  tint: .gray)
-                        .font(.custom("", size: 6))
+                    .font(.custom("", size: 6))
                     
                     CustomImage(image: Image(systemName: "clock"),
                                 size: 14,

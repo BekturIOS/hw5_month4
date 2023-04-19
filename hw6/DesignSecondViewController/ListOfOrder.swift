@@ -8,7 +8,6 @@
 import Foundation
 import SwiftUI
 
-
 struct ListOfOrder: View{
     var image: Image
     var title: String

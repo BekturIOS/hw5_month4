@@ -15,7 +15,7 @@ struct HorizontalSlider: View {
     var isSelected: Bool
     var body: some View {
         HStack {
-           
+            
             CustomImage(image: image)
                 .foregroundColor(isSelected ? .white : .black)
                 .padding(isSelected ? .horizontal : .all, 15)
@@ -24,8 +24,8 @@ struct HorizontalSlider: View {
                 .shadow(color: Color(.black).opacity(0.2), radius: 8, x: 0, y: 2)
             if isSelected {
                 Text(title)
-                .font(.custom("",size: 17))
-                .foregroundColor(.white)
+                    .font(.custom("",size: 17))
+                    .foregroundColor(.white)
             }
         }
         .padding(.all, 15)

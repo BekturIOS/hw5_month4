@@ -21,9 +21,9 @@ struct ProductOne: View {
                            font: .bold
                 )
                 Text(text)
-                .font(.custom("", size: 10))
-                .lineLimit(11)
-                .foregroundColor(.gray)
+                    .font(.custom("", size: 10))
+                    .lineLimit(11)
+                    .foregroundColor(.gray)
                 
                 
                 HStack{
@@ -35,7 +35,7 @@ struct ProductOne: View {
                     CustomText(text: "4.5",
                                color: .black,
                                font: .bold)
-                        .font(.custom("", size: 15))
+                    .font(.custom("", size: 15))
                     
                     CustomButton(image: Image(systemName:"moonphase.new.moon"), tint: .gray)
                         .font(.custom("", size: 6))

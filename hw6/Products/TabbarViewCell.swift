@@ -8,9 +8,6 @@
 import Foundation
 import SwiftUI
 
-
-
-
 struct TabbarViewCell: View {
     var body: some View {
         HStack{

@@ -34,9 +34,9 @@ struct SecondView: View {
                     HStack{
                         VStack{
                             
-                                CustomText(text: "Bektur",
-                                           font: .bold)
-                         
+                            CustomText(text: "Bektur",
+                                       font: .bold)
+                            
                         }
                     }
                 }

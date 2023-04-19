@@ -22,5 +22,3 @@ struct CustomImage: View {
             .font(.custom("", size: size ?? 0))
     }
 }
-
-

@@ -8,7 +8,6 @@
 import Foundation
 import SwiftUI
 
-
 struct HeaderTitle: View{
     var titleText: String
     var body: some View{
